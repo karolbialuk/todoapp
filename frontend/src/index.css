@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#register,
+#login,
+#information {
+  background-image: url("../public/imgs/pattern-background-png-4.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.react-calendar {
+  border: none;
+}
